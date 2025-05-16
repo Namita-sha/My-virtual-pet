@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My pet</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="dragon.png">
+</head>
+<body>
+    <h1>The Virtual Pet</h1>
+<div class="pet" id="pet"> 
+    <img src="dragon.png" alt="Baby dragon" width="400" height="400">
+</div>
+
+   <div class ="container">
+    
+    <h2>Baby Dragon</h2>
+    
+    <div class="stats">
+      <div class="stat">
+         <label>🍔 Hunger:<span id="hunger-val">100</span></label>
+        <div class="bar"><div id="hunger-bar" class="fill"></div></div>
+      </div>
+      <div class="stat">
+        <label>😊 Happiness:<span id="happiness-val">100</span></label>
+        <div class="bar"><div id="happiness-bar" class="fill"></div></div>
+      </div>
+      <div class="stat">
+        <label>🧼 Cleanliness:<span id="clean-val">100</span></label>
+        <div class="bar"><div id="clean-bar" class="fill"></div></div>
+      </div>
+      <div class="stat">
+        <label>⚡ Energy:<span id="energy-val">100</span></label>
+        <div class="bar"><div id="energy-bar" class="fill"></div></div>
+      </div>
+    </div>
+   
+   
+   </div> 
+     <div class="btn">
+      <button onclick="feed()">Feed</button>
+      <button onclick="play()">Play</button>
+      <button onclick="clean()">Clean</button>
+      <button onclick="sleep()">Sleep</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
